@@ -1,8 +1,9 @@
 *{
     padding: 0;
     margin: 0;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     color: white;
+    line-height: 1.4;
 }
 
 .container{
@@ -15,4 +16,18 @@
 
 .wrapper{
     background-color: #13253f;
+    padding: 40px 30px;
+    border-radius: 10px;
+}
+
+.showcase{
+    display: flex;
+}
+
+.showcase div{
+    padding: 40px;
+}
+
+.language{
+    display: grid;
 }
